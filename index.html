@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vibrant Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="#">VibrantBlog</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#posts">Blog Posts</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Explore the World of Colors</h1>
+            <p>Unlock creativity, stories, and vibrant ideas with every post.</p>
+            <a href="#posts" class="cta-btn">Discover Posts</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>I'm a creative writer passionate about sharing insights on design, tech, and life. Welcome to my colorful corner of the web where ideas come alive in every post.</p>
+    </section>
+
+    <!-- Blog Posts Section -->
+    <section id="posts" class="posts">
+        <h2>Latest Blog Posts</h2>
+        <div class="posts-container">
+            <article class="post">
+                <img src="https://miro.medium.com/v2/resize:fit:1400/0*c7cdIXKWsMQ_9QxT.jpg" alt="Post Image">
+                <h3>Exploring the Power of Colors in Design</h3>
+                <p>Colors have a profound impact on our emotions and perception. Dive into the world of color psychology in design.</p>
+                <a href="#" class="read-more">Read More</a>
+            </article>
+
+            <article class="post">
+                <img src="https://pacifichorticulture.org/wp-content/uploads/2021/05/3-jewel-box-front-early-sprng.800.jpg" alt="Post Image">
+                <h3>Urban Inspiration: Finding Beauty in the Chaos</h3>
+                <p>The city is alive with stories. Learn how urban landscapes can inspire creativity and shape our thinking.</p>
+                <a href="#" class="read-more">Read More</a>
+            </article>
+
+            <article class="post">
+                <img src="https://www.hulhub.com/images/home/blog/12-Ways-Technology-Could-Change-the-World-by-2025.jpg" alt="Post Image">
+                <h3>Technology and Creativity: A Perfect Symbiosis</h3>
+                <p>Technology isn't just tools. It’s a playground for creativity. Here’s how tech shapes the creative process.</p>
+                <a href="#" class="read-more">Read More</a>
+            </article>
+
+            <article class="post">
+                <img src="https://ceblog.s3.amazonaws.com/wp-content/uploads/2012/05/20172622/ce-travel.jpg" alt="Post Image">
+                <h3>Travel Diaries: Finding Peace in New Places</h3>
+                <p>Traveling opens new perspectives. Read about finding inner peace through exploration.</p>
+                <a href="#" class="read-more">Read More</a>
+            </article>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form action="#" method="post">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit" class="cta-btn">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 VibrantBlog. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
